@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    transition: background .5s;
+    transition-timing-function: ease-in-out;
+    background-color:#9e9e9e1f;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -ms-transition: background .5s;
+    -o-transition: background .5s;
+}
+header{
+    padding:20px  40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+/* color: white; */
+font-size: 40px;
+}
+.logo img{
+    width: 60px;
+}
+ul li{
+    display: inline-block;
+    margin: 0px 10px ;
+
+
+}
+.content{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .text{
+    /* color: white; */
+  width: 40%;
+  padding: 10px;
+}
+.text h2{
+    text-transform: uppercase;
+    font-size: 40px;}
+.text p{
+    margin: 20px 0px 0px;
+    font-size: 20px;}
+.image{
+     width:30%;
+}
+.image img{
+    width: 100%;
+}
+button{
+    cursor: pointer;
+    border:1px solid;
+    outline: none;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 30px;
+    margin: 30px 10px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.choose-phone{
+     position: absolute;
+     bottom: 10px;
+     left: 50%;
+     transform: translateX(-50%);
+     -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+     -ms-transform: translateX(-50%);
+     -o-transform: translateX(-50%);
+}
+.choose-phone img{
+    /* width: 70px; */
+    height: 120px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    cursor: pointer;
+}
+.choose-phone img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
